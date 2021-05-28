@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="new.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Thang Pham</title>
+</head>
+
+<body onload=quotes()>
+    <div class="container">
+        <div id="menu-bar">
+            <div class="hamburger-menu" id="menu" onclick="onClickMenu()">
+                <div class="line" id="line-1"></div>
+                <div class="line" id="line-2"></div>
+                <div class="line" id="line-3"></div>
+            </div>
+            <ul class="nav" id="nav">
+                <li><a href="index.html" class="nav-link">HOME</a></li>
+                <li><a href="#resume" class="nav-link">RESUME</a></li>
+                <li><a href="Gallery/Gallery.html" class="nav-link">GALLERY</a></li>
+                <li><a href="#" class="nav-link">SERVICES</a></li>
+                <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+                <li><a href="#" class="nav-link">ABOUT ME</a></li>
+                <li><a href="#" class="nav-link">CONTACT</a></li>
+            </ul>
+            <div class="menu-bg" id="menu-bg"></div>
+        </div>
+        <div class="index-bg">
+            <div class="name">
+                <div>           
+                    <h1 style="text-shadow: 2px 10px rgb(46, 46, 46);">Thang Pham</h1>
+                    <br>
+                    <p class="quote" id="quote"></p><br>
+                </div>
+                <div class="weather"> 
+                        <br> 
+                        <img src="" alt="" class="icon">                             
+                        <p class="desc"></p>
+                        <p class="temperature"></p>
+                        <p class="location"></p>             
+                </div>
+                
+            </div>
+            <div class="stars">
+                <div class="star" style="top: 50px; left: 55%; animation-delay: 3s;"></div>
+                <div class="star" style="top: 40px; left: 60%; animation-delay: 3s;"></div>
+                <div class="star" style="top: 60px; left: 50%; animation-delay: 2s;"></div>
+                <div class="star" style="top: 80px; left: 66%; animation-delay: 4s;"></div>
+                <div class="star" style="top: 70px; left: 76%; animation-delay: 1s;"></div>
+                <div class="star" style="top: 90px; left: 88%; animation-delay: 2s;"></div>
+                <div class="star" style="top: 110px; left: 96%; animation-delay: 1s;"></div>
+            </div>
+        </div>
+
+        <div class="arrow-container">
+            <div><a href="#resume" style="text-decoration:none; color:white;"><small>Explore</small>
+                    <div class="arrow-down"></div>
+                </a></div>
+
+        </div>
+    </div>
+    <div class="break-line">
+        <img src="green.png" alt="green dot" style="width:7px; vertical-align: middle;">
+        <span style="font-size:12px;">Alert For Content Update Goes Here</span>
+    </div>
+
+    <div class="resume" id="resume">
+        <br>
+        <h2 style="text-align:center;font-size: 30px; padding-left: 30px;">Thang Pham</h2>
+        <img src="me.jpg" alt="me"><br>
+        <h3>About Me</h3>
+        <p>Automation technician with over 1 year of experience and multiple successful projects involving modification,
+            commission and maintenance of control system for automated equipment. Proficient in developing PLC control
+            logic from scratch using various platforms. Adept in circuit troubleshooting, controls modification, and
+            installation
+            of electrical components. Well-versed with hand and power tools including drill, tap, crimper and stripper.
+        </p><br>
+        <h3>Skills</h3>
+        <p>
+        <ul>
+            <li>Industrial Automation Programming. Tools Include: RSLogix 5000/500, CX-Programmer, Siemens Step 7 MicroWin.
+            </li>
+            <li>Ladder Logic, FBD, SFC.
+            </li>
+            <li>HMI Development. Tools Include: AB FactoryTalk View, Omron CX-Designer.</li>
+            <li>Electrical Schematic Interpretation.</li>
+            <li>Electrical Wiring and Troubleshooting</li>
+            <li>Mechanical Design using SolidWorks.</li>
+        </ul>
+        </p><br>
+        <h3>Work Experience:</h3>
+        <p>
+            <ul>
+                <li><b>Lincoln Electric (Mississauga,ON)</i></b><br>
+                    <i>Electrical Controls Technician</i>
+                    <ul>
+                        <li>Perform electrical modifications of plant’s equipment, including modification of control panel and HMI,
+                            installation and wiring of electrical components such as contactors, relays, and various types of sensors.</li>
+                        <li>Plan and implement process automation which includes building electrical panels, create PLC ladder
+                            logic (RSLogix 500, CX-Programmer), as well as wiring field devices to PLC I/O.</li>
+                        <li>Modify PLC ladder logic programs (Siemens Simatic Step 7) and HMI (Omron CX-Designer) to
+                        accommodate new hardware installations or adjustment of existing hardware.</li>
+                        <li>Troubleshoot, repair, and monitor electrical equipment such as sensors, motors, and control systems for
+                        various automation processes.</li>
+                        <li>Resolve any electrical problems occur within the plant to ensure smooth production and minimal
+                        downtime.</li>
+                    </ul>                
+                </li><br>
+                <li>
+                    <b>Computronic Corporation <i>(Toronto,ON)</i></b><br>
+                    <i>Electronics Technician</i> 
+                    <ul>
+                        <li>Perform diagnostic test and troubleshooting for logic boards.</li>
+                        <li>De-solder and replace faulty components including resistors, capacitors, charging port and IC chips.</li>
+                        <li>Assemble and set up computer servers based on specifications.</li>
+                        <li>Ensure cable and wiring connections are organized and accurate.</li>
+                    </ul>
+                </li>
+            </ul>
+        </p><br>
+        <h3>Education</h3>
+        <p>
+        <ul>
+            <li>
+                <h4>Centennial College</h4>
+                <h5>Software Engineering, Diploma</h5>
+                <p>Sep, 2020 - Present | Toronto, ON</p>
+                <p>Skill acquired: Fullstack web development with C#, Javascript, HTML, CSS, Oracle SQL.</p>
+            </li>
+            <li>
+                <h4>George Brown College</h4>
+                <h5>Electro-mechanical Engineering, Diploma</h5>
+                <p>Jan, 2017 - Apr, 2018 | Toronto, ON</p>
+                <p>Skill acquired: Automation system design and implementation using Solidworks, Allen Bradley RSLogix
+                    5000, Arduino.</p>
+            </li>
+        </ul>
+        
+        </p><br><br>
+    </div>
+    <h3 class="resume">Projects</h3>
+    <div class="project" id="projects">
+        <div>
+            <h4>Assignment 1 - Basal Metabolic Rate Calculator</h4><br>
+            <a href="Assignment_1/Assignment_1.html">
+                <img src="Assignment1.jpg" alt="BMR Calculator" style="width:250px; height:150px;">
+            </a>
+        </div>
+        <div>
+            <h4>Assignment 2 - Table Generator</h4><br>
+            <a href="Assignment_2/Assignment_2.html">
+                <img src="Assignment2.jpg" alt="BMR Calculator" style="width:250px;height:150px;">
+            </a>
+        </div>
+    </div>
+
+    <div class="contact">
+        <form action="mailto:thangpham1412@gmail.com">
+            <p style="text-align: center;">Please fill out the form below if you would like to get in touch.</p><br>
+            <div>
+                <label>Name</label><br>
+                <input type="text" class="text-input" name="fullname" size="40"><br>
+
+            </div>
+            <label>Email</label><br>
+            <input type="text" class="text-input" name="email" size="40"><br>
+            <label>Phone</label><br>
+            <input type="text" class="text-input" name="phone" size="40"><br>
+            <label>Message</label><br>
+            <textarea name="Message" id="message-box" cols="42" rows="10"></textarea><br><br>
+            <button class="button" type="submit">Send Message</button>
+        </form>
+
+    </div>
+
+
+
+
+
+
+    <script src="javascript.js"></script>
+</body>
